@@ -10,13 +10,13 @@ int main(){
     printf("enter ajay age : ");
     scanf("%d",&ajay);
     if(ram > shyam && ram > ajay){
-        printf("greater than ram");
+        printf("ram is greater then shyam and ajay");
     }
     if(shyam > ajay && shyam > ram){
-        printf("greater than shyam");
+        printf("shyam is grater than ram and ajay");
     }
     if(ajay > ram && ajay > shyam){
-        printf("greater than ajay");
+        printf("ajay is greater than ram and shyam");
     }
     return 0;
 }
