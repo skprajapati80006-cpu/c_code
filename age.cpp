@@ -3,11 +3,11 @@ int main(){
     int ram;
     int shyam;
     int ajay;
-    printf("enter ram age");
+    printf("enter ram age : ");
     scanf("%d",&ram);
-    printf("enter shyam age");
+    printf("enter shyam age : ");
     scanf("%d",&shyam);
-    printf("enter ajay age");
+    printf("enter ajay age : ");
     scanf("%d",&ajay);
     if(ram > shyam && ram > ajay){
         printf("greater than ram");
